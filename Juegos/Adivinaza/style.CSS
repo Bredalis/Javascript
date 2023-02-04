@@ -1,0 +1,10 @@
+body{
+    background-color: skyblue;
+    font-family: 'Roboto', sans-serif;
+}
+
+button{
+    background-color: #ba68c8;
+    margin: auto;
+    padding: 15px;
+}
