@@ -1,3 +1,4 @@
+
 alert("Hola!" + "\n" + "\n" + "Este es un juego donde tendras que adivinar las diferencias en las siguientes imagenes");
 
 function CorazonesDeVida(){
