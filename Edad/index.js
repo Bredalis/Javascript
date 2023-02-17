@@ -9,4 +9,4 @@ Year  = parseInt(prompt("Write your year : "));
 
 Operaction = Actual_Year - Year;
 
-document.write("Tu naciste el ", date, " de ", Month, " el ", Year, " y tienes ", Operaction);
+document.write("You were born on ", date, " of ", Month, " the ", Year, " and you're ", Operaction, "years old");
