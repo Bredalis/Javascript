@@ -7,37 +7,36 @@ $(function(){
 
 var Body = document.getElementById("Cuerpo");
 var Header = document.getElementById("Encabezado");
-var Selection_1 = document.getElementById("Elegir");
-var Button_1 = document.getElementById("Color");
-var Selection_2 = document.getElementById("Traducir");
-var Input_1 = document.getElementById("Idioma_Entrada");
-var Input_2 = document.getElementById("Idioma_Salida");
-var Button_2 = document.getElementById("Historial");
+var Input_1 = document.getElementById("Idioma_Salida");
+var Button_Like = document.getElementById("Like");
 
-function Estilo_Inicial(){
-
-	window.location. reload()
-}
+var Bolean = true;
 
 function Estilo(){
 
-	Body.style.background = "#808B96";
-	Header.style.color = "white";
+	if(Bolean){
 
-	Selection_1.style.background = "#808B96";
-	Selection_1.style.color = "white";
-	Selection_1.style.border = "white";
+		Bolean = false;
 
-	Button_1.style.background = "#808B96";
-	Button_1.style.color = "white";
+		Body.style.backgroundColor = "#808B96";
+		Header.style.color = "white";
 
-	Selection_2.style.background = "#808B96";
-	Selection_2.style.color = "white";
-	Selection_2.style.border = "white"
+	}else{
 
-	Input_1.style.border = "#808B96";
-	Input_2.style.border = "#808B96";
+		Bolean = true;
 
-	Button_2.style.background = "#808B96";
-	Button_2.style.color = "white";
+		Body.style.backgroundColor = "white";
+		Header.style.color = "black";
+	}	
+}
+
+function Like(){
+
+	//Continuar;
+}
+
+function Copiar(){
+
+	Input_1.select();
+	document.execCommand("Copy");
 }

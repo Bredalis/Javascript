@@ -17,13 +17,28 @@
 	border-radius: 50%;
 }
 
-#Elegir, #Traducir{
+.Idiomas{
 	margin: 2;
 }
 
 #Idioma_Entrada, #Idioma_Salida{
 	padding: 100;
 	font-size: larger;
+}
+
+#Like{
+
+	border-color: white;
+	border-radius: 50%;
+	position: absolute;
+	left: 76%;
+}
+
+#Copiar{
+	border-color: white;
+	border-radius: 50%;
+	position: absolute;
+  	left: 79%;
 }
 
 #Historial{
