@@ -8,7 +8,10 @@ $(function(){
 var Body = document.getElementById("Cuerpo");
 var Header = document.getElementById("Encabezado");
 var Input_1 = document.getElementById("Idioma_Salida");
+var Traducir = document.getElementById("Traducir");
+var Compartir = document.getElementById("Compartir");
 var Button_Like = document.getElementById("Like");
+var Historial = document.getElementById("Historial");
 
 var Bolean = true;
 
@@ -30,6 +33,16 @@ function Estilo(){
 	}	
 }
 
+function Traducir(){
+
+	//Continuar;
+}
+
+function Compartir(){
+
+	//Continuar;
+}
+
 function Like(){
 
 	//Continuar;
@@ -39,4 +52,9 @@ function Copiar(){
 
 	Input_1.select();
 	document.execCommand("Copy");
+}
+
+function Historial(){
+
+	//Continuar;
 }

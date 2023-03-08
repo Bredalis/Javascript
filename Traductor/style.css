@@ -26,8 +26,21 @@
 	font-size: larger;
 }
 
-#Like{
+#Traducir{
+	border-color: white;
+	border-radius: 50%;
+	position: absolute;
+	right: 78%;
+}
 
+#Compartir{
+	border-color: white;
+	border-radius: 50%;
+	position: absolute;
+	left: 70%;
+}
+
+#Like{
 	border-color: white;
 	border-radius: 50%;
 	position: absolute;
