@@ -4,8 +4,8 @@ var Month, date, Year, Operaction;
 Actual_Year = new Date().getFullYear();
 
 Month = prompt("Write your month : ");
-date  = prompt("Write your date : ");
-Year  = parseInt(prompt("Write your year : "));
+date = prompt("Write your date : ");
+Year = parseInt(prompt("Write your year : "));
 
 Operaction = Actual_Year - Year;
 

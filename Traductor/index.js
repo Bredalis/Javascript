@@ -35,17 +35,17 @@ function Estilo(){
 
 function Traducir(){
 
-	//Continuar;
+	//Continuar
 }
 
 function Compartir(){
 
-	//Continuar;
+	//Continuar
 }
 
 function Like(){
 
-	//Continuar;
+	//Continuar
 }
 
 function Copiar(){
@@ -56,5 +56,5 @@ function Copiar(){
 
 function Historial(){
 
-	//Continuar;
+	//Continuar
 }
